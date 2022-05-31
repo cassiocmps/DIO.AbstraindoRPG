@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AbstraindoRPG.Entities;
+using System;
 
 namespace AbstraindoRPG
 {
@@ -6,7 +7,7 @@ namespace AbstraindoRPG
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Arus hero = new Arus("hero", 12, "warrior");
         }
     }
 }
