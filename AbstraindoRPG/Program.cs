@@ -7,7 +7,15 @@ namespace AbstraindoRPG
     {
         static void Main(string[] args)
         {
-            Arus hero = new Arus("hero", 12, "warrior");
+            Hero arus = new Warrior("Arus", 12);
+            Hero jen = new Wizard("Jen", 13);
+            Console.WriteLine(arus);
+            Console.WriteLine(jen);
+
+            Console.WriteLine(arus.Attack());
+            Console.WriteLine(jen.Attack());
+
+            Console.WriteLine(arus.Attack(5));
         }
     }
 }
